@@ -1,0 +1,15 @@
+{
+"type": "FeatureCollection",
+"name": "titik",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::32749" } },
+"features": [
+{ "type": "Feature", "properties": { "Id": 0, "epk": 2, "men": 6, "dak": 8, "net": 0, "gan": 0, "int": 0, "cp": 0, "wic": 0, "aut": 0, "sco": 0, "tul": 0, "lai": 3, "nama": "Jengglong" }, "geometry": { "type": "Point", "coordinates": [ 488856.012264431570657, 9157041.924961838871241 ] } },
+{ "type": "Feature", "properties": { "Id": 0, "epk": 1, "men": 2, "dak": 7, "net": 0, "gan": 1, "int": 0, "cp": 0, "wic": 0, "aut": 1, "sco": 0, "tul": 0, "lai": 0, "nama": "Kersan" }, "geometry": { "type": "Point", "coordinates": [ 489048.359921854338609, 9158082.865225538611412 ] } },
+{ "type": "Feature", "properties": { "Id": 0, "epk": 1, "men": 3, "dak": 4, "net": 0, "gan": 0, "int": 0, "cp": 0, "wic": 0, "aut": 0, "sco": 0, "tul": 1, "lai": 0, "nama": "Pandak" }, "geometry": { "type": "Point", "coordinates": [ 489772.492279210477136, 9158320.471155295148492 ] } },
+{ "type": "Feature", "properties": { "Id": 0, "epk": 1, "men": 2, "dak": 6, "net": 2, "gan": 1, "int": 0, "cp": 1, "wic": 0, "aut": 1, "sco": 1, "tul": 0, "lai": 1, "nama": "Kauman" }, "geometry": { "type": "Point", "coordinates": [ 489721.576722833851818, 9157783.029171321541071 ] } },
+{ "type": "Feature", "properties": { "Id": 0, "epk": 1, "men": 0, "dak": 1, "net": 1, "gan": 0, "int": 1, "cp": 0, "wic": 0, "aut": 0, "sco": 0, "tul": 0, "lai": 0, "nama": "Gandon" }, "geometry": { "type": "Point", "coordinates": [ 489517.914497327466961, 9157534.108673479408026 ] } },
+{ "type": "Feature", "properties": { "Id": 0, "epk": 3, "men": 5, "dak": 3, "net": 0, "gan": 0, "int": 0, "cp": 0, "wic": 0, "aut": 0, "sco": 0, "tul": 0, "lai": 0, "nama": "Jatisobo" }, "geometry": { "type": "Point", "coordinates": [ 489653.689314331742935, 9157172.042494801804423 ] } },
+{ "type": "Feature", "properties": { "Id": 0, "epk": 0, "men": 1, "dak": 1, "net": 0, "gan": 0, "int": 0, "cp": 0, "wic": 0, "aut": 0, "sco": 0, "tul": 0, "lai": 0, "nama": "Kajoran" }, "geometry": { "type": "Point", "coordinates": [ 490032.727345135353971, 9157930.118556408211589 ] } },
+{ "type": "Feature", "properties": { "Id": 0, "epk": 0, "men": 0, "dak": 0, "net": 0, "gan": 1, "int": 0, "cp": 0, "wic": 1, "aut": 0, "sco": 0, "tul": 0, "lai": 0, "nama": "Suruh Pabrik" }, "geometry": { "type": "Point", "coordinates": [ 490360.84981956233969, 9158388.358563797548413 ] } }
+]
+}

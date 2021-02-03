@@ -150,39 +150,39 @@
         });
 
       /* Layer Marker */
- //  var marker1 = L.marker([-7.626370,110.898609]), { 
-   //         draggable: true 
-    //    });
-    //    marker1.addTo(map);
-    //    marker1.bindPopup("Jatisobo || Eks Kronis: 3, Mental: 5, Daksa: 3"); 
+   var marker1 = L.marker([-7.626370,110.898609]), { 
+            draggable: true 
+        });
+        marker1.addTo(map);
+        marker1.bindPopup("Jatisobo || Eks Kronis: 3, Mental: 5, Daksa: 3"); 
 
-    //    var marker2 = L.marker([-7.616197,110.901430]); 
-    //    marker2.addTo(map);
-    //    marker2.bindPopup("Kersan || Eks Kronis: 1, Mental: 2, Daksa: 7, Ganda: 1, Autis: 1"); 
+        var marker2 = L.marker([-7.616197,110.901430]); 
+        marker2.addTo(map);
+        marker2.bindPopup("Kersan || Eks Kronis: 1, Mental: 2, Daksa: 7, Ganda: 1, Autis: 1"); 
 
-    //    var marker3 = L.marker([-7.627104,110.906502]); 
-    //    marker3.addTo(map);
-     //   marker3.bindPopup("Gagan || Data Belum Ditemukan");
+        var marker3 = L.marker([-7.627104,110.906502]); 
+        marker3.addTo(map);
+        marker3.bindPopup("Gagan || Data Belum Ditemukan");
 	    
-	//    var marker4 = L.marker([-7.620630,110.904909]); 
-     //   marker4.addTo(map);
-      //  marker4.bindPopup("Gandon || Eks Kronis: 1, Daksa: 1, Netra: 1, Intelektual: 1");
+	    var marker4 = L.marker([-7.620630,110.904909]); 
+        marker4.addTo(map);
+        marker4.bindPopup("Gandon || Eks Kronis: 1, Daksa: 1, Netra: 1, Intelektual: 1");
 	    
-	//    var marker5 = L.marker([-7.619458,110.907491]); 
-      //  marker5.addTo(map);
-      //  marker5.bindPopup("Kauman || Eks Kronis: 1, Mental: 2, Daksa: 6, Netra: 2, Ganda: 1, Cerebral Palsy: 1, Autis: 1, Psikososial: 1, Lainnya: 1");
+	    var marker5 = L.marker([-7.619458,110.907491]); 
+        marker5.addTo(map);
+        marker5.bindPopup("Kauman || Eks Kronis: 1, Mental: 2, Daksa: 6, Netra: 2, Ganda: 1, Cerebral Palsy: 1, Autis: 1, Psikososial: 1, Lainnya: 1");
 	    
-//var marker6 = L.marker([-7.617652,110.909619]); 
-     //   marker6.addTo(map);
-      //  marker6.bindPopup("Kajoran || Mental: 1, Daksa: 1");
+var marker6 = L.marker([-7.617652,110.909619]); 
+        marker6.addTo(map);
+        marker6.bindPopup("Kajoran || Mental: 1, Daksa: 1");
 	    
-	//    var marker7 = L.marker([-7.614609,110.907454]); 
-    //    marker7.addTo(map);
-    //    marker7.bindPopup("Pandak || Eks Kronis: 1, Mental: 3, Daksa: 4, Tuli: 1");
+	    var marker7 = L.marker([-7.614609,110.907454]); 
+        marker7.addTo(map);
+      marker7.bindPopup("Pandak || Eks Kronis: 1, Mental: 3, Daksa: 4, Tuli: 1");
 	    
-	//    var marker8 = L.marker([-7.614040,110.911758]); 
-    //    marker8.addTo(map);
-       // marker8.bindPopup("Suruh Pabrik || Ganda: 1, Wicara: 1");
+	    var marker8 = L.marker([-7.614040,110.911758]); 
+       marker8.addTo(map);
+        marker8.bindPopup("Suruh Pabrik || Ganda: 1, Wicara: 1");
 
         /* Control Layer */ 
         var baseMaps = {
@@ -201,6 +201,14 @@
         };
         var overlayMaps = {
             "Sebaran Data Difabel": wfsgeoserver,
+		"Jatisobo": marker1,
+		"Kersan": marker2,
+		"Gagan": marker3,
+		"Gandon": marker4,
+		"Kauman": marker5,
+		"Kajoran": marker6,
+		"Pandak": marker7,
+		"Suruh Pabrik": marker8
         };
         L.control.layers(baseMaps, overlayMaps, { 
             collapsed: false
